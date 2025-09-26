@@ -110,7 +110,8 @@ nav a{
     text-decoration: none;
     font-family: 'Playfair Display', sans-serif;
     color: var(--dark-charcoal);
-    font-weight: bold;
+    font-weight: 800;
+    font-size: 1.2em;
 }
 
 header nav > ul{
@@ -118,23 +119,129 @@ header nav > ul{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    gap: 200px;
+    gap: 80px;
     padding: 10px 0;
 }
 
 
 /* main styles */
-
+main {
+    margin: 0 auto;
+    background-color: var(--soft-white);
+    padding: 17px;
+}
 /* welcome section styles */
+#welcome > h2{
+    color: var(--midnight-blue);
+    font-size: 2em;
+    padding-top: 75px;
+    padding-left: 3px;
+}
 
+#welcome > p{
+    padding-bottom: 20px;
+    padding-top: 10px;
+    line-height: 1.5;
+    font-weight: 500;
+}
+
+#welcome{
+    border-bottom: var(--champagne-gold) solid 2px;
+}
 /* offering section styles  */
+
+#offerings > h2{
+    color: var(--midnight-blue);
+    font-size: 2em;
+    padding-left: 3px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+#offerings{
+    border-bottom: var(--champagne-gold) solid 2px;
+}
 
 /* provisions div styles  */
 
+#provisions {
+    border: var(--dark-charcoal) solid 1px;
+    border-radius: 10px;
+    background-color: var(--olive-green);
+    padding: 15px;
+    margin-bottom: 20px;
+}
+#provisions h3{
+    color: var(--soft-white);
+    font-size: 1.5em;
+    padding-bottom: 5px;
+}
+
+
+#provisions p{
+    color: var(--soft-white);
+    line-height: 1.4;
+    padding-right: 5px;
+}
+
 /* experience div styles */
+
+#experience {
+    border: var(--dark-charcoal) solid 1px;
+    border-radius: 10px;
+    background-color: var(--olive-green);
+    padding: 15px;
+    margin-bottom: 20px;
+}
+#experience h3{
+    color: var(--soft-white);
+    font-size: 1.5em;
+    padding-bottom: 5px;
+}
+
+
+#experience p{
+    color: var(--soft-white);
+    line-height: 1.4;
+    padding-right: 5px;
+}
 
 /* monthly div styles  */
 
+#monthly {
+    border: var(--dark-charcoal) solid 1px;
+    border-radius: 10px;
+    background-color: var(--olive-green);
+    padding: 15px;
+    margin-bottom: 20px;
+    
+}
+#monthly h3{
+    color: var(--soft-white);
+    font-size: 1.5em;
+    padding-bottom: 5px;
+}
+
+#monthly li {
+    color: var(--soft-white);
+    list-style-type: disc;
+    line-height: 1.4;
+    
+    list-style-position: inside;
+}
+
+#monthly p{
+    color: var(--soft-white);
+    line-height: 1.4;
+    padding-right: 5px;
+}
+
+
+
+
+#provisions, #experience, #monthly{
+    box-shadow: 2px 2px 2px var(--dark-charcoal);
+} 
 /* gallery section styles  */
 
 /* gallery div image styles  */
