@@ -134,15 +134,16 @@ main {
 #welcome > h2{
     color: var(--midnight-blue);
     font-size: 2em;
-    padding-top: 75px;
-    padding-left: 3px;
+    padding: 25px 0px 5px 5px;
+    margin: 0 auto;
 }
 
 #welcome > p{
-    padding-bottom: 20px;
-    padding-top: 10px;
+    padding: 5px 0 25px 0;
+    margin: 0 auto;
     line-height: 1.5;
     font-weight: 500;
+  
 }
 
 #welcome{
@@ -244,8 +245,55 @@ main {
 } 
 /* gallery section styles  */
 
-/* gallery div image styles  */
+#gallery{
+    margin: 0 auto;
+    padding: 0;
+}
 
+#gallery > h2{
+    color: var(--midnight-blue);
+    font-size: 2em;
+    padding-left: 3px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-weight: 500;
+}
+#gallery > p{
+    line-height: 1.4;
+    padding-bottom: 20px;
+    font-weight: 500;
+}
+
+/* gallery div image styles  */
+.boximg img{
+    display: block;
+    width: 95%;
+}
+
+.boximg p{
+    background-color: var(--soft-white);
+    
+    border-bottom: var(--dark-charcoal) 1px solid;
+
+    text-align: center;
+    font-style: italic;
+    font-weight: 500;
+    width: 95%;
+    margin-bottom: 15px;
+    box-shadow: 1px 2px 2px var(--dark-charcoal);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.boximg img {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.boximg p{
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius:  5px; 
+}
 
 /* footer styles  */
 
