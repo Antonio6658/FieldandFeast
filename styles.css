@@ -147,7 +147,7 @@ main {
 }
 
 #welcome{
-    border-bottom: var(--champagne-gold) solid 2px;
+    border-bottom: var(--champagne-gold) solid 3px;
 }
 /* offering section styles  */
 
@@ -160,7 +160,7 @@ main {
 }
 
 #offerings{
-    border-bottom: var(--champagne-gold) solid 2px;
+    border-bottom: var(--champagne-gold) solid 3px;
 }
 
 /* provisions div styles  */
@@ -247,7 +247,6 @@ main {
 
 #gallery{
     margin: 0 auto;
-    padding: 0;
 }
 
 #gallery > h2{
@@ -267,7 +266,7 @@ main {
 /* gallery div image styles  */
 .boximg img{
     display: block;
-    width: 95%;
+    width: 100%;
 }
 
 .boximg p{
@@ -278,7 +277,7 @@ main {
     text-align: center;
     font-style: italic;
     font-weight: 500;
-    width: 95%;
+
     margin-bottom: 15px;
     box-shadow: 1px 2px 2px var(--dark-charcoal);
     padding-top: 15px;
@@ -295,12 +294,70 @@ main {
     border-bottom-right-radius:  5px; 
 }
 
+
+#gallery a {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    border: var(--olive-green) solid 1px;
+    background-color: var(--olive-green);
+    color: var(--soft-white);
+    border-radius: 5px 5px 5px;
+    padding: 15px;
+}
+
+#gallery{
+    border-bottom: var(--champagne-gold) solid 3px;
+    padding-bottom: 25px;
+}
 /* footer styles  */
 
 
+footer{
+    
+    display: block;
+    text-align: center;
+    background-color: var(--midnight-blue);
+}
+
+footer a{
+    text-decoration: none;
+    display: block;
+    color: var(--champagne-gold);
+
+}
+
+footer p{
+    color: var(--linen);
+}
+
+#address{
+    padding-top: 75px;
+    line-height: 1.5;
+}
+
+#phone{
+    line-height: 1.5;
+    padding-bottom: 5px;
+}
+
+
+#mail{
+    padding-bottom: 50px;
+}
+
+
+#social{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    padding-bottom: 25px;
+}
+
 /* MEDIA QUERY (medium) */
 @media screen and (min-width: 600px){
-
+    
 
 }
 /* MEDIA QUERY (large) */
