@@ -361,7 +361,7 @@ footer p{
     padding-bottom: 25px;
 }
 
-/* MEDIA QUERY (medium) */
+/* MEDIA QUERY (medium) 600px*/
 @media screen and (min-width: 600px){
   
     main{
@@ -430,7 +430,7 @@ footer p{
     }
 
 }
-/* MEDIA QUERY (large) */
+/* MEDIA QUERY (large) 900px */
 @media screen and (min-width: 900px){
 
     main{
@@ -471,7 +471,7 @@ footer p{
         grid-column: 2/3;
     }
 }
-/* MEDIA QUERY (xl) */
+/* MEDIA QUERY X-Large (xl) 1200px*/
 @media screen and (min-width: 1200px){
 
     main {
